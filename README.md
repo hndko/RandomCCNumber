@@ -1,1 +1,84 @@
-<h1 align="center">\n  <br>\n  <a href="https://github.com/kyo1337/RandomCCNumber"><img src="https://i.ibb.co/60yC5Vd/cc.png" alt="CC Generator" width="200"></a>\n  <br>\n  Random CC Generator\n  <br>\n</h1>\n\n<h4 align="center">A high-speed, offline-capable valid Credit Card number generator with Luhn algorithm support.</h4>\n\n<p align="center">\n  <a href="https://github.com/kyo1337/RandomCCNumber/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kyo1337/RandomCCNumber?style=flat-square"></a>\n  <a href="https://github.com/kyo1337/RandomCCNumber/issues"><img src="https://img.shields.io/github/issues/kyo1337/RandomCCNumber?style=flat-square"></a>\n  <a href="https://github.com/kyo1337/RandomCCNumber/stargazers"><img src="https://img.shields.io/github/stars/kyo1337/RandomCCNumber?style=flat-square"></a>\n</p>\n\n<p align="center">\n  <a href="#key-features">Key Features</a> •\n  <a href="#installation">Installation</a> •\n  <a href="#usage">Usage</a> •\n  <a href="#disclaimer">Disclaimer</a> •\n  <a href="#credits">Credits</a>\n</p>\n\n## Key Features\n\n*   **Offline First**: No API dependency. Generates numbers locally using the Luhn checksum algorithm.\n*   **Instant Generation**: Capable of generating thousands of records in seconds.\n*   **BIN Support**: Generate valid numbers from a specific BIN or pattern (e.g., `454321`).\n*   **Full Identity**: Generates realistic dummy data for Name, Address, Phone, and Email.\n*   **CLI Interface**: Beautiful and responsive Command Line Interface.\n\n## Installation\n\nTo use this tool, you need to have **PHP** installed on your system.\n\n```bash\n# Debian/Ubuntu/Kali\napt update && apt upgrade -y\napt install php git -y\n\n# Clone the repository\ngit clone https://github.com/kyo1337/RandomCCNumber\ncd RandomCCNumber\n```\n\n## Usage\n\nRun the script directly from your terminal:\n\n```bash\nphp CC-RANDOM-NUMBER.php\n```\n\nFollow the on-screen prompts:\n\n1.  **BIN**: Enter a 6-digit BIN (e.g., `539983`) or leave blank for a random generator.\n2.  **Count**: How many cards you want to generate.\n3.  **Delay**: Time to wait between each generation (0 for instant output).\n\n## Disclaimer\n\n> [!WARNING]\n> **EDUCATIONAL PURPOSE ONLY**. This tool generates mathematically valid credit card numbers using the Luhn algorithm. These numbers are **NOT** real, active, or funded. They are intended for **testing** checkout flows, validation regex, and security research.\n>\n> The developers (**Z3R0-K**, **Mari Partner**) are not responsible for any misuse of this tool. Using generated data for fraud is illegal.\n\n## Credits\n\n*   **Coder**: [Kyuoko](https://github.com/kyo1337)\n*   **Team**: Z3R0-K | Mari Partner\n
+<div align="center">
+
+  <a href="https://github.com/kyo1337/RandomCCNumber">
+    <img src="https://i.ibb.co/60yC5Vd/cc.png" alt="CC Generator" width="120">
+  </a>
+
+  <h1>Random CC Number Generator</h1>
+
+  <p>
+    <b>Z3R0-K x Mari Partner</b>
+    <br>
+    A high-speed, offline-capable valid Credit Card number generator.
+    <br>
+    <br>
+    <a href="https://github.com/kyo1337/RandomCCNumber/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/kyo1337/RandomCCNumber?style=flat-square&color=blueviolet" alt="License">
+    </a>
+    <a href="https://github.com/kyo1337/RandomCCNumber/issues">
+      <img src="https://img.shields.io/github/issues/kyo1337/RandomCCNumber?style=flat-square&color=orange" alt="Issues">
+    </a>
+    <a href="https://github.com/kyo1337/RandomCCNumber/stargazers">
+      <img src="https://img.shields.io/github/stars/kyo1337/RandomCCNumber?style=flat-square&color=ff69b4" alt="Stars">
+    </a>
+  </p>
+
+</div>
+
+---
+
+## ⚡️ Key Features
+
+- **Offline First**: Zero API dependencies. Safe and fast.
+- **Luhn Algorithm**: Generates mathematically valid credit card numbers.
+- **BIN Support**: Target specific banks with BIN inputs (e.g., `454321`).
+- **Complete Identity**: Includes realistic names, addresses, and contact info.
+- **Instant Speed**: Generates thousands of test records in milliseconds.
+
+## 📦 Installation
+
+This tool requires **PHP** to run.
+
+```bash
+# Update System
+apt update && apt upgrade -y
+
+# Install PHP and Git
+apt install php git -y
+
+# Clone Repository
+git clone https://github.com/kyo1337/RandomCCNumber
+cd RandomCCNumber
+```
+
+## 🚀 Usage
+
+Run the script directly from your terminal:
+
+```bash
+php CC-RANDOM-NUMBER.php
+```
+
+### Interactive Menu
+
+1. **BIN**: Input a 6-digit BIN (e.g., `539983`) or leave blank for a random VISA/Mastercard.
+2. **Count**: Enter the number of cards to generate.
+3. **Delay**: Set a delay in seconds (use `0` for max speed).
+
+## ⚠️ Disclaimer
+
+> [!WARNING] > **EDUCATIONAL PURPOSE ONLY**.
+> This tool generates random numbers that verify against the Luhn algorithm. They are **NOT** real, issued, or funded cards.
+>
+> This tool is intended for:
+>
+> - Software Testing (Checkout logic validation)
+> - Security Research (Regex testing)
+> - Educational demonstrations of the Luhn algorithm
+>
+> The developers are not responsible for any misuse. **Do not use for fraud.**
+
+## 🤝 Credits
+
+- **Coder**: [Kyuoko](https://github.com/kyo1337)
+- **Team**: Z3R0-K | Mari Partner
