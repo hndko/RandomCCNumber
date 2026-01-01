@@ -1,16 +1,1 @@
-# Install
-- apt update && apt upgrade 
-- apt install php php-dev php-cli php-curl git nano
-- git clone https://github.com/kyo1337/RandomCCNumber
-- cd RandomCCNumber
-- php CC-RANDOM-NUMBER.php
-
-# Petunjuk Pengguna
-- Count : [Jumlah]
-- Delay : [Jeda Waktu]
-
-# Note
-- https://linktr.ee/doko1554
-
-# ScreenShot
-![Capture](https://user-images.githubusercontent.com/33697576/79110404-88b6a080-7da4-11ea-99c9-c0d261e89ee8.PNG)
+<h1 align="center">\n  <br>\n  <a href="https://github.com/kyo1337/RandomCCNumber"><img src="https://i.ibb.co/60yC5Vd/cc.png" alt="CC Generator" width="200"></a>\n  <br>\n  Random CC Generator\n  <br>\n</h1>\n\n<h4 align="center">A high-speed, offline-capable valid Credit Card number generator with Luhn algorithm support.</h4>\n\n<p align="center">\n  <a href="https://github.com/kyo1337/RandomCCNumber/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kyo1337/RandomCCNumber?style=flat-square"></a>\n  <a href="https://github.com/kyo1337/RandomCCNumber/issues"><img src="https://img.shields.io/github/issues/kyo1337/RandomCCNumber?style=flat-square"></a>\n  <a href="https://github.com/kyo1337/RandomCCNumber/stargazers"><img src="https://img.shields.io/github/stars/kyo1337/RandomCCNumber?style=flat-square"></a>\n</p>\n\n<p align="center">\n  <a href="#key-features">Key Features</a> •\n  <a href="#installation">Installation</a> •\n  <a href="#usage">Usage</a> •\n  <a href="#disclaimer">Disclaimer</a> •\n  <a href="#credits">Credits</a>\n</p>\n\n## Key Features\n\n*   **Offline First**: No API dependency. Generates numbers locally using the Luhn checksum algorithm.\n*   **Instant Generation**: Capable of generating thousands of records in seconds.\n*   **BIN Support**: Generate valid numbers from a specific BIN or pattern (e.g., `454321`).\n*   **Full Identity**: Generates realistic dummy data for Name, Address, Phone, and Email.\n*   **CLI Interface**: Beautiful and responsive Command Line Interface.\n\n## Installation\n\nTo use this tool, you need to have **PHP** installed on your system.\n\n```bash\n# Debian/Ubuntu/Kali\napt update && apt upgrade -y\napt install php git -y\n\n# Clone the repository\ngit clone https://github.com/kyo1337/RandomCCNumber\ncd RandomCCNumber\n```\n\n## Usage\n\nRun the script directly from your terminal:\n\n```bash\nphp CC-RANDOM-NUMBER.php\n```\n\nFollow the on-screen prompts:\n\n1.  **BIN**: Enter a 6-digit BIN (e.g., `539983`) or leave blank for a random generator.\n2.  **Count**: How many cards you want to generate.\n3.  **Delay**: Time to wait between each generation (0 for instant output).\n\n## Disclaimer\n\n> [!WARNING]\n> **EDUCATIONAL PURPOSE ONLY**. This tool generates mathematically valid credit card numbers using the Luhn algorithm. These numbers are **NOT** real, active, or funded. They are intended for **testing** checkout flows, validation regex, and security research.\n>\n> The developers (**Z3R0-K**, **Mari Partner**) are not responsible for any misuse of this tool. Using generated data for fraud is illegal.\n\n## Credits\n\n*   **Coder**: [Kyuoko](https://github.com/kyo1337)\n*   **Team**: Z3R0-K | Mari Partner\n
